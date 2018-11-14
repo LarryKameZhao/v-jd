@@ -1,7 +1,7 @@
 <template lang="html">
     <div :class="$style.header">
         <span :class="$style.left">
-            <em>注册</em>&nbsp;|&nbsp;<em>登录</em>
+            <em>注册</em>&nbsp;|&nbsp;<em>登陆</em>
         </span>
         <btn :class="$style.btnDownload">APP下载</btn>
     </div>
@@ -11,11 +11,10 @@
 import btn from "../core/btn.vue"
 export default {
     components: {
-        btn,
+        btn
     },
 }
 </script>
-
 <style lang="scss" module>
   .header{
     color: #666;
@@ -37,8 +36,8 @@ export default {
     }
     .btnDownload{
       float: right;
-      font-size: 24px;
-      border-width: 0;
+      font-size:24px;
+      border-width:0;
       height: 56px;
       line-height: 56px;
       min-width: 120px;
